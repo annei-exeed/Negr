@@ -1,0 +1,2 @@
+# Negr
+BLACK NIGGGER
