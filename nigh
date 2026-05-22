@@ -1,0 +1,78 @@
+<!DOCTYPE html><html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мій односторінковий сайт</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      text-align: center;
+    }header {
+  background: #222;
+  color: white;
+  padding: 20px;
+}
+
+section {
+  padding: 20px;
+}
+
+img {
+  width: 300px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+/* Анімація */
+.box {
+  width: 100px;
+  height: 100px;
+  background: crimson;
+  margin: 20px auto;
+  animation: move 2s infinite alternate;
+}
+
+@keyframes move {
+  from {
+    transform: translateX(-100px);
+  }
+  to {
+    transform: translateX(100px);
+  }
+}
+
+iframe {
+  width: 560px;
+  height: 315px;
+  max-width: 90%;
+  border: none;
+  border-radius: 10px;
+}
+
+  </style>
+</head>
+<body>  <header>
+    <h1>Мій простий односторінковий сайт</h1>
+  </header>  <section>
+    <h2>Текст</h2>
+    <p>Це приклад простого HTML сайту з текстом, зображеннями, анімацією та відео.</p>
+  </section>  <section>
+    <h2>Зображення людини</h2>
+    <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=800" alt="Людина">
+  </section>  <section>
+    <h2>Зображення тварини</h2>
+    <img src="https://images.unsplash.com/photo-1517849845537-4d257902454a?q=80&w=800" alt="Тварина">
+  </section>  <section>
+    <h2>Анімація</h2>
+    <div class="box"></div>
+  </section>  <section>
+    <h2>Відео</h2>
+    <iframe 
+      src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+      allowfullscreen>
+    </iframe>
+  </section></body>
+</html>
